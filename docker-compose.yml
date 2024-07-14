@@ -3,8 +3,6 @@ services:
   hexo-blog:
     build:
       context: .
-      args:
-        NODE_VERSION: 14
     container_name: hexo-blog
     image: hexo-blog:latest
     restart: always
